@@ -1,35 +1,45 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { BrowserRouter, Routes, Route, Link } from "react-router";
+import Cube from "./Swiper-demos/Cube.jsx";
+import "./App.css";
+import Flip from "./Swiper-demos/Flip.jsx";
 
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+    <BrowserRouter>
+      <div style={{ textAlign: "center", margin: "1rem" }}>
+        <h1 style={{ fontSize: "2rem" }}>Swiper Demos</h1>
+        <p style={{ fontSize: "1.2rem" }}>
+          A couple of different Swiper demos using React and Swiper.js
         </p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+      <div style={{ textAlign: "center", margin: "1rem" }}>
+        <Link
+          to="/cube"
+          style={{
+            margin: "1rem",
+            fontSize: "1.5rem",
+            textDecoration: "underline",
+            color: "blue",
+          }}
+        >
+          Cube Effect
+        </Link>
+        <Link
+          to="/flip"
+          style={{
+            margin: "1rem",
+            fontSize: "1.5rem",
+            textDecoration: "underline",
+            color: "blue",
+          }}
+        >
+          Flip Effect
+        </Link>
+      </div>
+      <Routes>
+        <Route path="/cube" element={<Cube />} />
+        <Route path="/flip" element={<Flip />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
-
-export default App
