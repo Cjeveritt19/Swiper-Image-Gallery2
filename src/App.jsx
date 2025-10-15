@@ -1,17 +1,12 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router";
-import Cube from "./Swiper-demos/Cube.jsx";
+import Cube from "./Swiper-Demos/Cube.jsx";
 import "./App.css";
-import Flip from "./Swiper-demos/Flip.jsx";
+import Flip from "./Swiper-Demos/Flip.jsx";
+import Slider from "./Swiper-Demos/Slider.jsx";
 
 export default function App() {
   return (
     <BrowserRouter>
-      <div style={{ textAlign: "center", margin: "1rem" }}>
-        <h1 style={{ fontSize: "2rem" }}>Swiper Demos</h1>
-        <p style={{ fontSize: "1.2rem" }}>
-          A couple of different Swiper demos using React and Swiper.js
-        </p>
-      </div>
       <div style={{ textAlign: "center", margin: "1rem" }}>
         <Link
           to="/cube"
@@ -35,10 +30,22 @@ export default function App() {
         >
           Flip Effect
         </Link>
+        <Link
+          to="/slider"
+          style={{
+            margin: "1rem",
+            fontSize: "1.5rem",
+            textDecoration: "underline",
+            color: "blue",
+          }}
+        >
+          Slider Effect
+        </Link>
       </div>
       <Routes>
         <Route path="/cube" element={<Cube />} />
         <Route path="/flip" element={<Flip />} />
+        <Route path="/slider" element={<Slider />} />
       </Routes>
     </BrowserRouter>
   );

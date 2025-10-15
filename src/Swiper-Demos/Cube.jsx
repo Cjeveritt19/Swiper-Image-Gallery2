@@ -6,7 +6,7 @@ import "swiper/css";
 import "swiper/css/effect-cube";
 import "swiper/css/pagination";
 
-import "../App.css";
+import "./Cube.css";
 
 import { EffectCube, Pagination } from "swiper/modules";
 
