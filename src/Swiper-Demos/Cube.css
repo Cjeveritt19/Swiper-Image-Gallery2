@@ -8,7 +8,7 @@ body {
 }
 
 body {
-  background: #444;
+  background-color: gray;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #fff;
@@ -17,13 +17,10 @@ body {
 }
 
 .swiper {
-  width: 300px;
-  height: 300px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  margin-left: -150px;
-  margin-top: -150px;
+  width: 80vw;
+  height: 80vw;
+  max-width: 500px;
+  max-height: 500px;
 }
 
 .swiper-slide {
@@ -56,60 +53,11 @@ body {
   object-fit: cover;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   .swiper {
-    height: 250px;
-    margin-top: -125px;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-  .swiper-slide img {
-    height: 250px;
-    object-fit: cover;
-  }
-  .Pumpkin {
-    height: 250px;
-    object-fit: cover;
-  }
-  .Halloween {
-    height: 250px;
-    object-fit: cover;
-  }
-  .Moon {
-    height: 250px;
-    object-fit: cover;
-  }
-  .Cat {
-    height: 250px;
-    object-fit: cover;
-  }
-}
-
-@media (max-width: 768px) {
-  .swiper {
-    height: 280px;
-    margin-top: -140px;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-  .swiper-slide img {
-    height: 280px;
-    object-fit: cover;
-  }
-  .Pumpkin {
-    height: 280px;
-    object-fit: cover;
-  }
-  .Halloween {
-    height: 280px;
-    object-fit: cover;
-  }
-  .Moon {
-    height: 280px;
-    object-fit: cover;
-  }
-  .Cat {
-    height: 280px;
-    object-fit: cover;
+    width: 90vw;
+    height: 90vw;
+    max-width: 350px;
+    max-height: 350px;
   }
 }

@@ -14,7 +14,7 @@ export default function App() {
             margin: "1rem",
             fontSize: "1.5rem",
             textDecoration: "underline",
-            color: "blue",
+            color: "black",
           }}
         >
           Cube Effect
@@ -25,7 +25,7 @@ export default function App() {
             margin: "1rem",
             fontSize: "1.5rem",
             textDecoration: "underline",
-            color: "blue",
+            color: "Black",
           }}
         >
           Flip Effect
@@ -36,7 +36,7 @@ export default function App() {
             margin: "1rem",
             fontSize: "1.5rem",
             textDecoration: "underline",
-            color: "blue",
+            color: "black",
           }}
         >
           Slider Effect

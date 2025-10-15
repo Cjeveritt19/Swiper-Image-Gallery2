@@ -11,7 +11,6 @@ import { EffectFlip, Pagination, Navigation, Keyboard } from "swiper/modules";
 export default function Flip() {
   return (
     <>
-      <h1>Swiper Flip Effect Demo</h1>
       <Swiper
         effect={"flip"}
         pagination={true}
@@ -27,7 +26,12 @@ export default function Flip() {
         >
           <h2>What is Swiper?</h2>
           <p>Click the arrow to reveal answer →</p>
-
+        </SwiperSlide>
+        <SwiperSlide
+          style={{
+            background: "linear-gradient(135deg, #7a7a7aff 0%, #1eff00ff 100%)",
+          }}
+        >
           <h2>Before Swiper</h2>
           <p>
             Writing complex carousel code manually, dealing with touch events,
@@ -47,7 +51,7 @@ export default function Flip() {
         </SwiperSlide>
         <SwiperSlide
           style={{
-            background: "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
+            background: "linear-gradient(135deg, #fa709a 0%, #009c22ff 100%)",
           }}
         >
           <h2>Features</h2>
