@@ -77,7 +77,7 @@ Through this project, we gained hands-on experience with:
 - Responsive design principles
 - Touch and gesture handling
 - Modern carousel implementation
-- Collaborative development using Trello for task management
+- Collaborative development using Trello for task management - https://trello.com/b/lu6sCGIy/swiper
 
 ## Resources
 
@@ -86,6 +86,4 @@ Through this project, we gained hands-on experience with:
 - [GitHub Repository](https://github.com/nolimits4web/swiper)
 
 
----
 
-*Presented to [Class Name] on [Date]*
