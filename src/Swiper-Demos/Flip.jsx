@@ -1,3 +1,8 @@
+import { Swiper, SwiperSlide } from "swiper/react";
+
+import "swiper/css";
+import "swiper/css/effect-flip";
+
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "./Flip.css";
@@ -22,7 +27,7 @@ export default function Flip() {
         >
           <h2>What is Swiper?</h2>
           <p>Click the arrow to reveal answer →</p>
-          @@ -30,18 +30,18 @@
+
           <h2>Before Swiper</h2>
           <p>
             Writing complex carousel code manually, dealing with touch events,
