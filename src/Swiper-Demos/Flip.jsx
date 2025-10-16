@@ -67,7 +67,7 @@ export default function Flip() {
           <h2>Specifications</h2>
           <p>
             Multiple effects • Mobile-first • Hardware accelerated • Fully
-            customizable
+            customisable
           </p>
         </SwiperSlide>
       </Swiper>
