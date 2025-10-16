@@ -43,8 +43,8 @@ export default function Slider() {
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxcgCSn37WxjSOqjl9VpmF2qPYhD918u6M8Q&s"
-            alt="A meerkat sitting in a pumpkin"
+            src="https://plus.unsplash.com/premium_photo-1695020025960-70febce9ae16?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=464"
+            alt="A skeleton sitting on a wall"
           />
         </SwiperSlide>
       </Swiper>
