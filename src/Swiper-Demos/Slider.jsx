@@ -44,7 +44,7 @@ export default function Slider() {
         <SwiperSlide>
           <img
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxcgCSn37WxjSOqjl9VpmF2qPYhD918u6M8Q&s"
-            alt="A lemur wearing sitting in a pumpkin"
+            alt="A meerkat sitting in a pumpkin"
           />
         </SwiperSlide>
       </Swiper>
