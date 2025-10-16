@@ -56,8 +56,6 @@ A dynamic flip card animation that reveals content with style. Best suited for:
 - ✅ **Autoplay** - Configurable automatic sliding
 - ✅ **Lazy Loading** - Optimize image loading
 - ✅ **Keyboard Control** - Navigate with arrow keys
-- ✅ **Loop Mode** - Infinite sliding
-- ✅ **Accessibility** - ARIA labels and keyboard navigation
 
 ## Project Structure
 
@@ -77,6 +75,7 @@ Through this project, we gained hands-on experience with:
 - Responsive design principles
 - Touch and gesture handling
 - Modern carousel implementation
+- Conflict with github - resolved by creating new branches everytime something was worked on.
 - Collaborative development using Trello for task management - https://trello.com/b/lu6sCGIy/swiper
 
 ## Resources
