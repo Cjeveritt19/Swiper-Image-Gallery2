@@ -67,7 +67,7 @@ We organized our project using React Router to create a seamless navigation expe
 /slide          → Slide effect demonstration
 /cube           → Cube effect demonstration
 /flip           → Flip effect demonstration
-
+/links          → Links that include the offical website and other insightful doucmentation on Swiper
 
 ## What We Learned
 
@@ -78,6 +78,7 @@ Through this project, we gained hands-on experience with:
 - Touch and gesture handling
 - Modern carousel implementation
 - Collaborative development using Trello for task management - https://trello.com/b/lu6sCGIy/swiper
+- Creating a powerpoint to the rest of the class to showcase the new component that they can use!
 
 ## Resources
 
