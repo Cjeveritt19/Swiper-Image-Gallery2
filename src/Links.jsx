@@ -1,7 +1,7 @@
 export default function Links() {
   return (
     <div style={{ textAlign: "center", margin: "1rem 0" }}>
-      <h2>
+      <h2 style={{ textAlign: "center", color: "orange" }}>
         This page has links to the official Swiper web page and its demos:
       </h2>
       <h3 style={{ color: "black", fontSize: "1.2rem" }}>

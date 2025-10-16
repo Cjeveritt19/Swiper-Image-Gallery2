@@ -13,38 +13,38 @@ export default function Slider() {
       <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
         <SwiperSlide>
           <img
-            src="https://i.natgeofe.com/k/8fa25ea4-6409-47fb-b3cc-4af8e0dc9616/red-eyed-tree-frog-on-leaves-3-2_3x4.jpg"
-            alt="A Green frog sitting on a leaf"
+            src="https://images.unsplash.com/photo-1636402419603-33f3d55100bb?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=387"
+            alt="A dog with a pumpkin on its head"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="https://as1.ftcdn.net/v2/jpg/01/99/77/64/1000_F_199776474_ORr8LaAj6pihYKMD4HqHpQ2nkTZ0IrIX.jpg"
-            alt="A Green frog sitting on a twig"
+            src="https://images.unsplash.com/photo-1730326936991-3592547b7d26?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=387"
+            alt="A Black kitten in a pumpkin"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="https://cdn.britannica.com/73/100273-050-221A0593/arrow-poison-frogs-sound-production-colour-warning-signal.jpg"
-            alt="A black and blue frog sitting on a green leaf"
+            src="https://i.pinimg.com/736x/8b/45/63/8b45632d2aae0c82d8f74ff6ed1b2800.jpg"
+            alt="Three guinea pigs in witches costumes"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="https://kids.earth.org/wp-content/uploads/2023/07/Untitled-683-%C3%97-1024px-1024-%C3%97-683px-2023-07-26T184215.475-900x600.jpg"
-            alt="Three colorful frogs on a branch"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVCdv92ROIKzmbA7ZjgPLVxu6lWTu3Ww1ylg&s"
+            alt="A pigeon wearing a witch hat"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="https://i0.wp.com/www.australiangeographic.com.au/wp-content/uploads/2018/06/Litoria_caerulea_-_Darwin_NT.jpg?fit=1000%2C672&ssl=1"
-            alt="A big green frog sitting on a branch"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTElOACH8QOhUjUiSg2iWa4zIDk6bCuwjM2lQ&s"
+            alt="A turtle wearing a spider costume"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Breviceps_macrops_454407799.jpg/1200px-Breviceps_macrops_454407799.jpg"
-            alt="A small brown frog sitting in the sand"
+            src="public/images/halloween.pokemon.png"
+            alt="Pokemon in halloween costumes"
           />
         </SwiperSlide>
       </Swiper>
