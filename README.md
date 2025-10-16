@@ -1,4 +1,4 @@
-# Swiper Package
+# Project Reflection 
 
 ## About This Project
 This is a collaborative assignment by **Callum** and **Aren** where we researched and presented the Swiper npm package to our class. We explored its capabilities by implementing three different swiper types with fully responsive designs using React Router.
