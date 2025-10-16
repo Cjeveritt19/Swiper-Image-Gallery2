@@ -43,8 +43,8 @@ export default function Slider() {
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="../../public/images/halloween.pokemon.jpeg"
-            alt="Pokemon in halloween costumes"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxcgCSn37WxjSOqjl9VpmF2qPYhD918u6M8Q&s"
+            alt="A lemur wearing sitting in a pumpkin"
           />
         </SwiperSlide>
       </Swiper>
