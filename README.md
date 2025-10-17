@@ -75,9 +75,15 @@ Through this project, we gained hands-on experience with:
 - Responsive design principles
 - Touch and gesture handling
 - Modern carousel implementation
-- Conflict with github - resolved by creating new branches everytime something was worked on.
 - Collaborative development using Trello for task management - https://trello.com/b/lu6sCGIy/swiper
 - Creating a powerpoint to the rest of the class to showcase the new component that they can use!
+
+## Blockers
+- We had a few issues during the assignment, some we were able to fix, others we were unsuccessful.
+- Once deployed to Vercel, the website would stop working once the page is refreshed and we were unable to figure out why.
+- We had multiple bugs with the images across all 3 examples but were able to successfully resolve these.
+- Conflict with github - resolved by creating new branches everytime something was worked on.
+  
 
 ## Resources
 
