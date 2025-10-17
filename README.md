@@ -75,7 +75,7 @@ Through this project, we gained hands-on experience with:
 - Responsive design principles
 - Touch and gesture handling
 - Modern carousel implementation
-- Collaborative development using Trello for task management - https://trello.com/b/lu6sCGIy/swiper
+- Collaborative development using Trello for task management
 - Creating a powerpoint to the rest of the class to showcase the new component that they can use!
 
 ## Blockers
@@ -85,8 +85,9 @@ Through this project, we gained hands-on experience with:
 - Conflict with github - resolved by creating new branches everytime something was worked on.
   
 
-## Resources
-
+## Resources & Links
+- https://trello.com/b/lu6sCGIy/swiper
+- https://docs.google.com/presentation/d/1n6XWQkAkf8xeyISQJsH4CKbq44-gR6SUDTysASs3K8s/edit?usp=sharing
 - [Official Swiper Documentation](https://swiperjs.com/)
 - [Swiper React Components](https://swiperjs.com/react)
 - [GitHub Repository](https://github.com/nolimits4web/swiper)
